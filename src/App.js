@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <Helmet bodyAttributes={{ style: "background-color : #212529" }} />
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           {routes.map((route, idx) => {
             return route.component ? (
