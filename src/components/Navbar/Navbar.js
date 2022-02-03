@@ -28,22 +28,22 @@ export default class Navbar extends Component {
               />
             </a> */}
             <div className="collapse navbar-collapse justify-content-center" id="navbarMenu">
-              <a className="navbar-brand" href="">
+              <a className="navbar-brand" href="/">
                 <h4>Home</h4>
               </a>
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item active">
-                  <a className="nav-link" href="">
+                  <a className="nav-link" href="/">
                     <h4>About Me</h4>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="">
+                  <a className="nav-link" href="/">
                     <h4>Projects</h4>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="">
+                  <a className="nav-link" href="/">
                     <h4>CV</h4>
                   </a>
                 </li>
