@@ -2,7 +2,7 @@
   width: 33.5rem;
   height: 20rem;
   position: relative;
-  border-radius: 25px;
+  border-radius: 65px;
 }
 
 #smartImageProject:hover {
@@ -19,8 +19,34 @@
 
 .hoverBlur {
   filter: blur(4px);
+  border-radius: 65px;
 }
 
 .hoverBlur:hover {
   filter: none;
+}
+
+figcaption {
+  position: absolute;
+  top: 45%;
+  left: 42%;
+}
+
+@media screen and (max-width: 1024px) {
+  figcaption {
+    position: absolute;
+    top: 10rem;
+    left: 22.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  figcaption {
+    position: inherit;
+    bottom: inherit;
+    margin: 0.25rem 0px;
+    font-size: inherit;
+    top: auto;
+    left: auto;
+  }
 }
