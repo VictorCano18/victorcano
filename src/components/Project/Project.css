@@ -1,0 +1,26 @@
+#smartImageProject {
+  width: 33.5rem;
+  height: 20rem;
+  position: relative;
+  border-radius: 25px;
+}
+
+#smartImageProject:hover {
+  filter: none;
+}
+
+.centerTextProject {
+  position: absolute;
+  top: 50%;
+  left: 19%;
+  width: 100%;
+  z-index: 99;
+}
+
+.hoverBlur {
+  filter: blur(4px);
+}
+
+.hoverBlur:hover {
+  filter: none;
+}
