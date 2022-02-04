@@ -8,7 +8,7 @@ export default class Summary extends Component {
       <div className="container">
         <div className="row d-flex align-items-sm-center justify-content-sm-center vh-100 overflow-hidden">
           <div className="mt-sm-0 mt-5 col-12 col-md-6">
-            <h2 className="text-dark centerTextProject">Smart Seguros</h2>
+            <h2 className="text-white centerTextProject">Smart Seguros</h2>
             <div className="hoverBlur">
               <img
                 id="smartImageProject"
