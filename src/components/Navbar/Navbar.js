@@ -1,8 +1,14 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 // import VicLogo from "../../assets/img/axe.png";
 import "./Navbar.css";
 
 export default class Navbar extends Component {
+  topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
   render() {
     return (
       <div className="navbar-wrapper">
@@ -33,24 +39,36 @@ export default class Navbar extends Component {
             >
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li id="nav-l" className="nav-item">
-                  <a className="nav-link" href="/">
+                  <Link to="/" className="nav-link" onClick={this.topFunction}>
                     <h4>Home</h4>
-                  </a>
+                  </Link>
                 </li>
                 <li id="nav-l" className="nav-item">
-                  <a className="nav-link" href="/Projects">
+                  <Link
+                    to="/Projects"
+                    className="nav-link"
+                    onClick={this.topFunction}
+                  >
                     <h4>Projects</h4>
-                  </a>
+                  </Link>
                 </li>
                 <li id="nav-l" className="nav-item">
-                  <a className="nav-link" href="/">
+                  <Link
+                    to="/Projects"
+                    className="nav-link"
+                    onClick={this.topFunction}
+                  >
                     <h4>About Me</h4>
-                  </a>
+                  </Link>
                 </li>
                 <li id="nav-l" className="nav-item">
-                  <a className="nav-link" href="/">
+                  <Link
+                    to="/Projects"
+                    className="nav-link"
+                    onClick={this.topFunction}
+                  >
                     <h4>CV</h4>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
