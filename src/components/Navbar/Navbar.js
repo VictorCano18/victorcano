@@ -33,12 +33,12 @@ export default class Navbar extends Component {
             >
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li id="nav-l" className="nav-item">
-                  <a className="nav-link" href="/victorcano/">
+                  <a className="nav-link" href="/">
                     <h4>Home</h4>
                   </a>
                 </li>
                 <li id="nav-l" className="nav-item">
-                  <a className="nav-link" href="/victorcano/Projects">
+                  <a className="nav-link" href="/Projects">
                     <h4>Projects</h4>
                   </a>
                 </li>
