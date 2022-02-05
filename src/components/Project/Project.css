@@ -21,11 +21,13 @@
   /* filter: blur(4px); */
   border-radius: 65px;
   transition: transform .2s; /* Animation */
+  cursor: pointer;
 }
 
 .hoverBlur:hover {
   /* filter: none; */
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 figcaption {
