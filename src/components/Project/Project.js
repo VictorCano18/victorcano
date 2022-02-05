@@ -21,6 +21,7 @@ export default class Summary extends Component {
       this.setState({ clickedImage: false });
     }
   }
+  
 
   render() {
     return (
@@ -28,7 +29,7 @@ export default class Summary extends Component {
         <div className="row flex-column align-items-center justify-content-center text-center vh-100 overflow-hidden">
           <div className="mt-sm-0 mt-5 mb-5">
             <figure className="position-relative">
-              <button className="hoverBlur" onClick={this.clickImage}>
+              <button className="hoverBlur" onMouseDown={this.clickImage}>
                 <img
                   id="smartImageProject"
                   className="img-fluid"
