@@ -34,7 +34,7 @@ export default class Navbar extends Component {
               />
             </a> */}
             <div
-              className="collapse navbar-collapse justify-content-center"
+              className="collapse navbar-collapse justify-content-sm-center"
               id="navbarMenu"
             >
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -78,3 +78,4 @@ export default class Navbar extends Component {
     );
   }
 }
+

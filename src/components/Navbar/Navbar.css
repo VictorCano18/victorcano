@@ -1,20 +1,25 @@
 #navbarLogo {
-    max-width: 5.5rem;
+  max-width: 5.5rem;
 }
 
 .navbarMT {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 ul.navbar-nav .nav-item:after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 0;
-    transition: width 0.5s ease, background-color 0.5s ease;
-  } 
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
 
 #nav-l:hover:after {
-    background-color: #00a6dd;
+  background-color: #00a6dd;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    margin-left: 3%;
   }
-  
+}
