@@ -18,12 +18,14 @@
 }
 
 .hoverBlur {
-  filter: blur(4px);
+  /* filter: blur(4px); */
   border-radius: 65px;
+  transition: transform .2s; /* Animation */
 }
 
 .hoverBlur:hover {
-  filter: none;
+  /* filter: none; */
+  transform: scale(1.1);
 }
 
 figcaption {

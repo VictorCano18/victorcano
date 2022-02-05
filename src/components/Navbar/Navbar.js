@@ -7,6 +7,7 @@ export default class Navbar extends Component {
   topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    document.getElementById("navbarButton").click();
   }
 
   render() {
@@ -15,6 +16,7 @@ export default class Navbar extends Component {
         <div className="container">
           <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top pr-4">
             <button
+              id="navbarButton"
               className="navbar-toggler"
               type="button"
               data-toggle="collapse"
