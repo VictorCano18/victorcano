@@ -37,7 +37,7 @@ export default class Summary extends Component {
                 />
               </button>
               <figcaption>
-                <h2 className="text-muted">Smart Seguros</h2>
+                <h2 className="text-muted mt-sm-0 mt-4">Smart Seguros</h2>
               </figcaption>
             </figure>
           </div>
