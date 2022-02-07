@@ -12,24 +12,17 @@ export default class Summary extends Component {
   }
 
   clickImage() {
-    if (this.state.clickedImage === false) {
-      document.getElementById("textOf").className =
-        "text-center text-muted font-weight-light";
-      this.setState({ clickedImage: true });
-    } else {
-      document.getElementById("textOf").className = "d-none";
-      this.setState({ clickedImage: false });
-    }
+    window.alert("The page is not ready :c");
   }
-  
 
   render() {
     return (
-      <div className="container">
-        <div className="row flex-column align-items-center justify-content-center text-center vh-100 overflow-hidden">
-          <div className="mt-sm-0 mt-5 mb-5">
-            <figure className="position-relative">
-              <button className="hoverBlur" onMouseDown={this.clickImage}>
+      <div className="">
+        <div className="row d-flex align-items-center justify-content-center text-center vh-100 scrollControl">
+        <div className="col-sm-3 col-12">
+            <div className="mt-sm-0 mt-5 mb-3">
+              {/* <figure className="position-relative"> */}
+              <button className="hoverBlur mb-3" onMouseDown={this.clickImage}>
                 <img
                   id="smartImageProject"
                   className="img-fluid"
@@ -37,21 +30,65 @@ export default class Summary extends Component {
                   src={SmartSeguros}
                 />
               </button>
-              <figcaption>
-                <h2 className="text-muted mt-sm-0 mt-4">Smart Seguros</h2>
-              </figcaption>
-            </figure>
+              {/* <figcaption> */}
+              <h2 className="text-white mt-sm-0 mt-4">Smart Seguros</h2>
+              {/* </figcaption> */}
+              {/* </figure> */}
+            </div>
+            <div
+              id="textOf"
+              className="text-center text-muted font-weight-light"
+            >
+              <h4>I develop the Front End of Smart Seguros. It took 1 year.</h4>
+            </div>
           </div>
-          <div
-            id="textOf"
-            className="text-center text-muted font-weight-light d-none"
-          >
-            <h2>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </h2>
+
+          <div className="col-sm-3 col-12">
+            <div className="mt-sm-0 mt-5 mb-3">
+              {/* <figure className="position-relative"> */}
+              <button className="hoverBlur mb-3" onMouseDown={this.clickImage}>
+                <img
+                  id="smartImageProject"
+                  className="img-fluid"
+                  alt="SmartProject"
+                  src={SmartSeguros}
+                />
+              </button>
+              {/* <figcaption> */}
+              <h2 className="text-white mt-sm-0 mt-4">Smart Seguros</h2>
+              {/* </figcaption> */}
+              {/* </figure> */}
+            </div>
+            <div
+              id="textOf"
+              className="text-center text-muted font-weight-light"
+            >
+              <h4>I develop the Front End of Smart Seguros. It took 1 year.</h4>
+            </div>
+          </div>
+
+          <div className="col-sm-3 col-12">
+            <div className="mt-sm-0 mt-5 mb-3">
+              {/* <figure className="position-relative"> */}
+              <button className="hoverBlur mb-3" onMouseDown={this.clickImage}>
+                <img
+                  id="smartImageProject"
+                  className="img-fluid"
+                  alt="SmartProject"
+                  src={SmartSeguros}
+                />
+              </button>
+              {/* <figcaption> */}
+              <h2 className="text-white mt-sm-0 mt-4">Smart Seguros</h2>
+              {/* </figcaption> */}
+              {/* </figure> */}
+            </div>
+            <div
+              id="textOf"
+              className="text-center text-muted font-weight-light"
+            >
+              <h4>I develop the Front End of Smart Seguros. It took 1 year.</h4>
+            </div>
           </div>
         </div>
       </div>

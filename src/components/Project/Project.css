@@ -3,6 +3,7 @@
   height: 20rem;
   position: relative;
   border-radius: 65px;
+  filter: grayscale(100%);
 }
 
 #smartImageProject:hover {
@@ -26,8 +27,13 @@
 
 .hoverBlur:hover {
   /* filter: none; */
-  transform: scale(1.1);
+  transform: scale(0.9);
   cursor: pointer;
+}
+
+.scrollControl {
+  overflow-x: hidden;
+  overflow-y: inherit;
 }
 
 figcaption {
