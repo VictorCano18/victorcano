@@ -1,11 +1,16 @@
 .summaryText {
-  color: white;
+  color: black;
+}
+
+.cubeFilter {
+  filter: grayscale(95%);
+  max-width: 40%;
 }
 
 .summaryText {
   /*background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(101, 98, 136, 0.4); /* Black w/opacity/see-through */
-  color: white;
+  color: #030349;
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
@@ -42,4 +47,43 @@ html {
   overflow: hidden;
   height: 100%;
   max-height: 100%;
+}
+
+
+.controller {
+  /* position: absolute; */
+  /* width: 24px;
+  height: 12px; */
+  /* z-index: 100; */
+  /* bottom: 20px;
+  left: 50%; */
+  /* margin-left: -12px; */
+  margin-top: 1.5rem;
+  -webkit-animation: bounce-down 1.6s linear infinite;
+  animation: bounce-down 1.6s linear infinite;
+
+}
+
+@-webkit-keyframes bounce-down {
+ 25% {
+      -webkit-transform: translateY(-4px);
+ }
+ 50%, 100% {
+      -webkit-transform: translateY(0);
+ }
+ 75% {
+      -webkit-transform: translateY(4px);
+ }
+}
+
+@keyframes bounce-down {
+  25% {
+       transform: translateY(-4px);
+  }
+  50%, 100% {
+       transform: translateY(0);
+  }
+  75% {
+       transform: translateY(4px);
+  }
 }

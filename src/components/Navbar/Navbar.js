@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import VicLogo from "../../assets/img/axe.png";
 import "./Navbar.css";
+import CV from "../../assets/files/CV_VictorCano.pdf";
 
 export default class Navbar extends Component {
   topFunction() {
@@ -64,13 +64,9 @@ export default class Navbar extends Component {
                   </Link>
                 </li>
                 <li id="nav-l" className="nav-item">
-                  <Link
-                    to="/Projects"
-                    className="nav-link"
-                    onClick={this.topFunction}
-                  >
+                  <a className="nav-link" href={CV} download>
                     <h4>CV</h4>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -80,4 +76,3 @@ export default class Navbar extends Component {
     );
   }
 }
-
