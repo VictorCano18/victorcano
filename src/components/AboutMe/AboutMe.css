@@ -1,0 +1,27 @@
+.marginAboutMe {
+  margin-top: 5rem !important;
+}
+.circleIcon {
+    background-color: #47413a;
+    border-radius: 300px;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 10vmax;
+}
+
+#imageAboutMe {
+    width: 10vmax;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#imageAboutMe2 {
+    width: 6vmax;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.circleIcon:hover {
+    filter: sepia(20%);
+    transform: translateY(-10%);
+}

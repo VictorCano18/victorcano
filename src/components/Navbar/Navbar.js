@@ -54,7 +54,7 @@ export default class Navbar extends Component {
                 </li>
                 <li id="nav-l" className="nav-item">
                   <Link
-                    to="/Projects"
+                    to="/AboutMe"
                     className="nav-link"
                     onClick={this.topFunction}
                   >
