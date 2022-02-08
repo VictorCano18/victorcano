@@ -42,11 +42,11 @@ function Form() {
 
   return (
     <div className="container text-secondary">
-      <div className="row flex-column d-flex justify-content-center align-items-center text-center vh-100 ">
-        <div className="mb-2">
-          <h2>If you want to contact me, fill out this form:</h2>
-        </div>
+      <div className="row d-flex flex-column justify-content-center align-items-center text-center vh-100 scrollControl">
         <div className="col-sm-6 col-12 mb-3">
+          <div>
+            <h2>If you want to contact me, fill out this form:</h2>
+          </div>
           <form onSubmit={sendEmail}>
             <div className="form-group">
               <div className="form-group mb-3">
@@ -94,13 +94,13 @@ function Form() {
             </button>
           </form>
         </div>
-        <div className="col-12 col-sm-6">
+        <div className="col-sm-6 col-12 mb-5 mb-sm-0">
           <div>
             <h2>
               Or If you want to know more about my work, click this button:
             </h2>
           </div>
-          <div className="col-12 mt-5 ml-2">
+          <div className="col-12 mt-5 ml-2 mb-5 mb-sm-0">
             <a
               id="downloadButton"
               className="btn btn-secondary btn-lg btn-block"

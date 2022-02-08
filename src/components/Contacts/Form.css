@@ -1,6 +1,6 @@
 #downloadButton {
   padding-right: 4rem;
-  padding-left: 4rem; 
+  padding-left: 4rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 30px;
@@ -8,13 +8,13 @@
 }
 
 #downloadButton:hover {
-    padding-right: 4rem;
-    padding-left: 4rem; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 30px;
-    background-color: #3395ac;
-  }
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 30px;
+  background-color: #3395ac;
+}
 
 .formFields {
   box-sizing: border-box;
@@ -33,6 +33,11 @@
   background-color: #363c42;
 }
 
-input, textarea {
-    color: white;
+input,
+textarea {
+  color: white;
+}
+
+.scrollControl {
+  overflow: auto;
 }

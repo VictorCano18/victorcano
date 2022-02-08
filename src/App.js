@@ -10,7 +10,7 @@ export default function App() {
     <div>
       <Helmet bodyAttributes={{ style: "background-color : #212529" }} />
       <Router basename={process.env.PUBLIC_URL}>
-        <NavBar className="row d-flex align-items-center justify-content-center" />
+        <NavBar />
         <Switch>
           {routes.map((route, idx) => {
             return route.component ? (
