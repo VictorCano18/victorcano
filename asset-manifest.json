@@ -1,9 +1,16 @@
 {
-  "main.css": "static/css/main.81cc0f7c.css",
-  "main.css.map": "static/css/main.81cc0f7c.css.map",
-  "main.js": "static/js/main.304a007d.js",
-  "main.js.map": "static/js/main.304a007d.js.map",
-  "static\\media\\CV_VictorCano.pdf": "static/media/CV_VictorCano.c94bf31d.pdf",
-  "static\\media\\rubik.png": "static/media/rubik.54e3043f.png",
-  "static\\media\\smartLogIn.jpg": "static/media/smartLogIn.8030a1e4.jpg"
+  "main.css": "/victorcano/static/css/main.60d73e7c.chunk.css",
+  "main.js": "/victorcano/static/js/main.8a3a4351.chunk.js",
+  "main.js.map": "/victorcano/static/js/main.8a3a4351.chunk.js.map",
+  "runtime~main.js": "/victorcano/static/js/runtime~main.51ecec9b.js",
+  "runtime~main.js.map": "/victorcano/static/js/runtime~main.51ecec9b.js.map",
+  "static/js/2.21bc8458.chunk.js": "/victorcano/static/js/2.21bc8458.chunk.js",
+  "static/js/2.21bc8458.chunk.js.map": "/victorcano/static/js/2.21bc8458.chunk.js.map",
+  "index.html": "/victorcano/index.html",
+  "precache-manifest.dab1cb62aed8dfc32c3efea6c6395c99.js": "/victorcano/precache-manifest.dab1cb62aed8dfc32c3efea6c6395c99.js",
+  "service-worker.js": "/victorcano/service-worker.js",
+  "static/css/main.60d73e7c.chunk.css.map": "/victorcano/static/css/main.60d73e7c.chunk.css.map",
+  "static/media/CV_VictorCano.pdf": "/victorcano/static/media/CV_VictorCano.c94bf31d.pdf",
+  "static/media/rubik.png": "/victorcano/static/media/rubik.54e3043f.png",
+  "static/media/smartLogIn.jpg": "/victorcano/static/media/smartLogIn.8030a1e4.jpg"
 }
