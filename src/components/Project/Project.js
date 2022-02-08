@@ -22,7 +22,7 @@ export default class Summary extends Component {
         <div className="col-sm-3 col-12">
             <div className="mt-sm-0 mt-5 mb-3">
               {/* <figure className="position-relative"> */}
-              <button className="hoverBlur mb-3" onMouseDown={this.clickImage}>
+              <button className="hoverBlur mb-3 ml-sm-0 ml-4 mr-sm-0 mr-4" onMouseDown={this.clickImage}>
                 <img
                   id="smartImageProject"
                   className="img-fluid"

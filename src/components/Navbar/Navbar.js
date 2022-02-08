@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import CV from "../../assets/files/CV_VictorCano.pdf";
-
 export default class Navbar extends Component {
   topFunction() {
     document.body.scrollTop = 0; // For Safari
@@ -64,9 +62,16 @@ export default class Navbar extends Component {
                   </Link>
                 </li>
                 <li id="nav-l" className="nav-item">
-                  <a className="nav-link" href={CV} download>
-                    <h4>CV</h4>
-                  </a>
+                  {/* <a className="nav-link" href={CV} download>
+                    <h4>Contact</h4>
+                  </a> */}
+                  <Link
+                    to="/Contact"
+                    className="nav-link"
+                    onClick={this.topFunction}
+                  >
+                    <h4>Contact</h4>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -23,6 +23,8 @@
   border-radius: 65px;
   transition: transform .2s; /* Animation */
   cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .hoverBlur:hover {
