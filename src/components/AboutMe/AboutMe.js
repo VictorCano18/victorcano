@@ -114,7 +114,7 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 d-none">
+        <div className="col-12">
           <h1 className="text-start mr-2">Me</h1>
           <hr color="blue" size="9" width="100" />
           <h2>
