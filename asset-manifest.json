@@ -1,7 +1,7 @@
 {
   "main.css": "/victorcano/static/css/main.e07f0fa4.chunk.css",
-  "main.js": "/victorcano/static/js/main.b2d40aba.chunk.js",
-  "main.js.map": "/victorcano/static/js/main.b2d40aba.chunk.js.map",
+  "main.js": "/victorcano/static/js/main.d2c6535f.chunk.js",
+  "main.js.map": "/victorcano/static/js/main.d2c6535f.chunk.js.map",
   "static/js/1.a9c9f6e8.chunk.js": "/victorcano/static/js/1.a9c9f6e8.chunk.js",
   "static/js/1.a9c9f6e8.chunk.js.map": "/victorcano/static/js/1.a9c9f6e8.chunk.js.map",
   "runtime~main.js": "/victorcano/static/js/runtime~main.b8ea3942.js",
@@ -22,6 +22,6 @@
   "static/media/c-sharp.png": "/victorcano/static/media/c-sharp.7633117e.png",
   "static/css/main.e07f0fa4.chunk.css.map": "/victorcano/static/css/main.e07f0fa4.chunk.css.map",
   "index.html": "/victorcano/index.html",
-  "precache-manifest.979dba62b469def50864a1fed63ca7ae.js": "/victorcano/precache-manifest.979dba62b469def50864a1fed63ca7ae.js",
+  "precache-manifest.db85996550d208d93bee75dd6d4145ef.js": "/victorcano/precache-manifest.db85996550d208d93bee75dd6d4145ef.js",
   "service-worker.js": "/victorcano/service-worker.js"
 }
