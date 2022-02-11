@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d2c6535f7e4c39c4872e",
-    "url": "/victorcano/static/css/main.e07f0fa4.chunk.css"
+    "revision": "9dc950675f4f60b24de4",
+    "url": "/victorcano/static/css/main.2d5505d7.chunk.css"
   },
   {
-    "revision": "d2c6535f7e4c39c4872e",
-    "url": "/victorcano/static/js/main.d2c6535f.chunk.js"
+    "revision": "9dc950675f4f60b24de4",
+    "url": "/victorcano/static/js/main.9dc95067.chunk.js"
   },
   {
     "revision": "a9c9f6e86382304e0d29",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/victorcano/static/js/runtime~main.b8ea3942.js"
   },
   {
-    "revision": "8030a1e438ac52fb49b3363d03daf597",
-    "url": "/victorcano/static/media/smartLogIn.8030a1e4.jpg"
+    "revision": "ca2f77f2942118531befb57488be9312",
+    "url": "/victorcano/static/media/rocket.ca2f77f2.png"
   },
   {
     "revision": "54e3043fe2c7c31760d901d4e2d43944",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/victorcano/static/media/c-sharp.7633117e.png"
   },
   {
-    "revision": "c9f8025f0f07df9a1a3544e12bef7bc5",
+    "revision": "c42c6c3f1c26df84ecf3ea80c4c9eb69",
     "url": "/victorcano/index.html"
   }
 ];

@@ -1,12 +1,12 @@
 {
-  "main.css": "/victorcano/static/css/main.e07f0fa4.chunk.css",
-  "main.js": "/victorcano/static/js/main.d2c6535f.chunk.js",
-  "main.js.map": "/victorcano/static/js/main.d2c6535f.chunk.js.map",
+  "main.css": "/victorcano/static/css/main.2d5505d7.chunk.css",
+  "main.js": "/victorcano/static/js/main.9dc95067.chunk.js",
+  "main.js.map": "/victorcano/static/js/main.9dc95067.chunk.js.map",
   "static/js/1.a9c9f6e8.chunk.js": "/victorcano/static/js/1.a9c9f6e8.chunk.js",
   "static/js/1.a9c9f6e8.chunk.js.map": "/victorcano/static/js/1.a9c9f6e8.chunk.js.map",
   "runtime~main.js": "/victorcano/static/js/runtime~main.b8ea3942.js",
   "runtime~main.js.map": "/victorcano/static/js/runtime~main.b8ea3942.js.map",
-  "static/media/smartLogIn.jpg": "/victorcano/static/media/smartLogIn.8030a1e4.jpg",
+  "static/media/rocket.png": "/victorcano/static/media/rocket.ca2f77f2.png",
   "static/media/rubik.png": "/victorcano/static/media/rubik.54e3043f.png",
   "static/media/CV_VictorCano.pdf": "/victorcano/static/media/CV_VictorCano.c94bf31d.pdf",
   "static/media/atom.png": "/victorcano/static/media/atom.c6b4d70d.png",
@@ -20,8 +20,8 @@
   "static/media/c-.png": "/victorcano/static/media/c-.e4f46516.png",
   "static/media/css.png": "/victorcano/static/media/css.b848d5d9.png",
   "static/media/c-sharp.png": "/victorcano/static/media/c-sharp.7633117e.png",
-  "static/css/main.e07f0fa4.chunk.css.map": "/victorcano/static/css/main.e07f0fa4.chunk.css.map",
+  "static/css/main.2d5505d7.chunk.css.map": "/victorcano/static/css/main.2d5505d7.chunk.css.map",
   "index.html": "/victorcano/index.html",
-  "precache-manifest.db85996550d208d93bee75dd6d4145ef.js": "/victorcano/precache-manifest.db85996550d208d93bee75dd6d4145ef.js",
+  "precache-manifest.780527abd193db932f83bb95eafbbb06.js": "/victorcano/precache-manifest.780527abd193db932f83bb95eafbbb06.js",
   "service-worker.js": "/victorcano/service-worker.js"
 }
