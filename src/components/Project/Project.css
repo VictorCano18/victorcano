@@ -1,13 +1,13 @@
 #smartImageProject {
-  width: 33.5rem;
-  height: 20rem;
+  max-width: 33.5rem;
+  height: 7rem;
   position: relative;
   border-radius: 65px;
   filter: grayscale(100%);
 }
 
 #smartImageProject:hover {
-  filter: none;
+  filter: grayscale(60%);
 }
 
 .centerTextProject {
@@ -33,10 +33,10 @@
   cursor: pointer;
 }
 
-.scrollControl {
+/* .scrollControl {
   overflow-x: hidden;
   overflow-y: inherit;
-}
+} */
 
 figcaption {
   position: absolute;

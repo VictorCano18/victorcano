@@ -1,5 +1,6 @@
 .marginAboutMe {
   margin-top: 5rem !important;
+  overflow: auto;
 }
 .circleIcon {
     background-color: #47413a;

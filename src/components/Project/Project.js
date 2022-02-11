@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SmartSeguros from "../../assets/img/smartLogIn.jpg";
+import SmartSeguros from "../../assets/img/rocket.png";
 import "./Project.css";
 
 export default class Summary extends Component {
