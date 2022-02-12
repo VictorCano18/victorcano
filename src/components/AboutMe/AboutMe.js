@@ -11,12 +11,13 @@ import Bootstrap from "../../assets/img/bootstrap.png";
 import Cplus from "../../assets/img/c-.png";
 import Css from "../../assets/img/css.png";
 import Csharp from "../../assets/img/c-sharp.png";
+import Node from "../../assets/img/node.png";
 
 const AboutMe = () => {
   return (
-    <div className="container marginAboutMe">
-      <div className="row d-flex justify-content-center text-secondary text-center">
-        <div className="col-12">
+    <div className="container marginAboutMe scrollControl">
+      <div className="row flex-column justify-content-center text-secondary text-center">
+        <div>
           <h1 className="text-start mr-2">Skills</h1>
           <hr color="blue" size="9" width="100" className="mb-5" />
           <div className="row justify-content-center">
@@ -112,11 +113,19 @@ const AboutMe = () => {
                 className="img-fluid mt-sm-4 mt-3 mb-2"
               />
             </div>
+            <div className="col-12 col-sm-4 circleIcon">
+              <img
+                src={Node}
+                alt="axe"
+                id="imageAboutMe2"
+                className="img-fluid mt-sm-4 mt-3 mb-2"
+              />
+            </div>
           </div>
         </div>
-        <div className="col-12">
+        <div>
           <h1 className="text-start mr-2">Me</h1>
-          <hr color="blue" size="9" width="100" />
+          <hr color="blue" size="9" width="100" className="mb-4" />
           <h2>
             I am a <span className="text-uppercase">passionate</span> person. I
             see problems as a possibility to improve ourselves or as an

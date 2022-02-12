@@ -3,6 +3,8 @@ import CV from "../../assets/files/CV_VictorCano.pdf";
 import "./Form.css";
 import { send } from "emailjs-com";
 import swal from "sweetalert";
+import LinkedIn from "../../assets/img/linkedin.png";
+import GitHub from "../../assets/img/github.png";
 
 function Form() {
   const [toSend, setToSend] = useState({
@@ -41,8 +43,8 @@ function Form() {
   };
 
   return (
-    <div className="container text-secondary">
-      <div className="row d-flex flex-column justify-content-center align-items-center text-center vh-100 scrollControl">
+    <div className="text-secondary">
+      <div className="row d-flex flex-column justify-content-center align-items-center text-center scrollControl">
         <div className="col-sm-6 col-12 mb-3">
           <div>
             <h2>If you want to contact me, fill out this form:</h2>
@@ -108,6 +110,31 @@ function Form() {
               href={CV}
             >
               Download CV
+            </a>
+          </div>
+        </div>
+        <div className="row col-sm-6 col-12 mb-5 mb-sm-0 mt-5">
+          <div>
+            <h2>You can also find me at:</h2>
+          </div>
+          <div className="col-6 mt-5 mb-5 mb-sm-0">
+            <a href="https://github.com/VictorCano18" target="_blank" rel="noopener noreferrer">
+              <img
+                src={GitHub}
+                alt="Git"
+                id="imageContact"
+                className="img-fluid"
+              />
+            </a>
+          </div>
+          <div className="col-6 mt-5 ml-2 mb-5 mb-sm-0">
+            <a href="https://www.linkedin.com/in/vics1806/" target="_blank" rel="noopener noreferrer">
+              <img
+                src={LinkedIn}
+                alt="Git"
+                id="imageContact"
+                className="img-fluid"
+              />
             </a>
           </div>
         </div>

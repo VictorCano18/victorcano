@@ -4,7 +4,7 @@ import Project from "../components/Project/Project";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="mt-5">
       <Project />
     </div>
   );

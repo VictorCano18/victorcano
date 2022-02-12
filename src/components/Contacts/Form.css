@@ -41,3 +41,7 @@ textarea {
 .scrollControl {
   overflow: auto;
 }
+
+#imageContact {
+  max-width: 30%;
+}

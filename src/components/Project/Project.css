@@ -1,6 +1,6 @@
 #smartImageProject {
-  max-width: 33.5rem;
-  height: 7rem;
+  max-width: 35rem;
+  height: 9rem;
   position: relative;
   border-radius: 65px;
   filter: grayscale(100%);
@@ -21,7 +21,7 @@
 .hoverBlur {
   /* filter: blur(4px); */
   border-radius: 65px;
-  transition: transform .2s; /* Animation */
+  transition: transform 0.2s; /* Animation */
   cursor: pointer;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -33,10 +33,81 @@
   cursor: pointer;
 }
 
+.scrollControl {
+  overflow: auto;
+}
+
+.medicoImage {
+  border-radius: 25px;
+  width: 100%;
+  filter: blur(0%);
+}
+
+.medicoImage {
+  border-radius: 25px;
+  width: 100%;
+  filter: blur(100%);
+}
+
+#medicImage {
+  filter: blur(100%);
+}
+
+#smartButton {
+  background-color: rgb(63, 47, 87);
+  color: white;
+  border-radius: 25px;
+}
+
+#smartButton:hover {
+  /* background-color: rgb(125, 118, 233); */
+  background-color: rgb(184, 125, 238);
+  color: rgb(255, 255, 255);
+  /* color: white; */
+}
+
 /* .scrollControl {
   overflow-x: hidden;
   overflow-y: inherit;
 } */
+
+.iconSkills {
+  width: 40%;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container2 img {
+  width: 100%;
+  height: auto;
+  filter: none;
+}
+
+.container2 img:hover {
+  width: 100%;
+  height: auto;
+  filter: blur(2px);
+}
+
+.container2 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
 
 figcaption {
   position: absolute;
@@ -45,20 +116,13 @@ figcaption {
 }
 
 @media screen and (max-width: 1024px) {
-  figcaption {
-    position: absolute;
-    top: 10rem;
-    left: 22.5rem;
+  #smartImageProject {
+    height: 6rem;
+  }
+  .iconSkills {
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  figcaption {
-    position: inherit;
-    bottom: inherit;
-    margin: 0.25rem 0px;
-    font-size: inherit;
-    top: auto;
-    left: auto;
-  }
 }
