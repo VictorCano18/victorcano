@@ -7,7 +7,6 @@
 }
 
 ul.navbar-nav .nav-item:after {
-  content: "";
   display: block;
   height: 3px;
   width: 0;
@@ -23,3 +22,50 @@ ul.navbar-nav .nav-item:after {
     margin-left: 3%;
   }
 }
+
+.margin-class {
+  margin-right: 2rem;
+}
+
+.form-check-input {
+  background-color: #e2e3e6;
+  border-color: #e2e3e6;
+}
+
+.form-check-input:checked {
+  background-color: #48494c;
+  border-color: #48494c;
+}
+
+.form-switch .form-check-input {
+  width: 88%;
+  height: 2rem;
+}
+
+
+/* .topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+} */
+
+.topnav li {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav li:hover {
+  border-bottom: 3px solid rgb(64, 86, 109);
+}
+
+.topnav li.active {
+  border-bottom: 3px solid rgb(151, 61, 61);
+}
+
+/* #nav-summary:hover:after {
+  background: #00a6dd;
+} */

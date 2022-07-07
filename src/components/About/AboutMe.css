@@ -1,0 +1,50 @@
+.marginAboutMe {
+  margin-top: 5rem !important;
+  overflow: auto;
+}
+.circleIcon {
+  /* background-color: #47413a;
+  border-radius: 300px; */
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 12vmax;
+  height: 15vmax;
+}
+
+#imageAboutMe {
+  width: 10vmax;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#imageAboutMe2 {
+  width: 8vmax;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.circleIcon:hover {
+  filter: sepia(20%);
+  /* transform: translateY(-10%); */
+}
+
+.justify-text {
+  text-align: justify;
+  color: #787878;
+}
+
+.image-me {
+    background-color: #ffffff1a;
+    border-radius: 180px;
+}
+
+.react-multiple-carousel__arrow {
+    background-color: rgb(33 37 41) !important;
+}
+
+.card-about {
+  background-color: #1d1e21;
+  box-shadow: 8px 11px 15px black;
+  padding-top: 3rem;
+  border-radius: 25px;
+}

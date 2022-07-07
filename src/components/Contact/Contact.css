@@ -1,0 +1,89 @@
+#downloadButton {
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 30px;
+  background-color: #336975;
+}
+
+#downloadButton:hover {
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 30px;
+  background-color: #3395ac;
+}
+
+.formFields {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #292a2e;
+  border-bottom: 8px solid #336975;
+  outline: none;
+  background-color: #292a2e;
+}
+
+.formFields:hover {
+  background-color: #363c42;
+}
+
+input,
+textarea {
+  color: white;
+}
+
+.scrollControl {
+  overflow: auto;
+}
+
+#imageContact {
+  max-width: 90%;
+}
+
+.contact-image:hover {
+  transform: translateY(-10%);
+}
+
+#smartImageProject {
+  height: 7.5rem;
+  max-width: 7.5rem;
+}
+
+.card2 {
+  background-color: #292a2e;
+  box-shadow: 8px 11px 15px black;
+  position: absolute;
+  transform: translate(100%, -25%);
+}
+
+.getUp {
+  margin-bottom: 3rem;
+  border-radius: 25px;
+}
+
+.container-bg {
+  background: #3e3d3e5c;
+}
+
+/* 
+@media only screen and (min-width: 1663px) {
+  .card2 {
+    position: none;
+    transform: none;
+    margin-bottom: 10rem;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+  } 
+  
+  .ttp{
+    padding-top: 25rem;
+  }
+} */

@@ -1,0 +1,163 @@
+#smartImageProject {
+  max-width: 35rem;
+  height: 11rem;
+  position: relative;
+  border-radius: 25px;
+}
+
+#smartImageProject:hover {
+  filter: grayscale(20%);
+}
+
+#imageInfotext2 {
+  color:  rgba(var(--bs-secondary-rgb),var(--bs-text-opacity))!important;
+}
+
+.centerTextProject {
+  position: absolute;
+  top: 50%;
+  left: 19%;
+  width: 100%;
+  z-index: 99;
+}
+
+.hoverBlur {
+  /* filter: blur(4px); */
+  border-radius: 65px;
+  transition: transform 0.2s; /* Animation */
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.hoverBlur:hover {
+  transform: scale(0.9);
+}
+
+.scrollControl {
+  overflow: auto;
+}
+
+.medicoImage {
+  border-radius: 25px;
+  width: 100%;
+  filter: blur(0%);
+}
+
+.medicoImage {
+  border-radius: 25px;
+  width: 100%;
+  filter: blur(100%);
+}
+
+#medicImage {
+  filter: blur(100%);
+}
+
+#smartButton {
+  background-color: rgb(63, 47, 87);
+  color: white;
+  border-radius: 25px;
+}
+
+#smartButton:hover {
+  /* background-color: rgb(125, 118, 233); */
+  background-color: rgb(184, 125, 238);
+  color: rgb(255, 255, 255);
+  /* color: white; */
+}
+
+/* .scrollControl {
+    overflow-x: hidden;
+    overflow-y: inherit;
+  } */
+
+.iconSkills {
+  width: 100%;
+}
+
+.iconSkills2 {
+  width: 30%;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container2 img {
+  width: 100%;
+  height: auto;
+  filter: none;
+}
+
+.container2 img:hover {
+  width: 100%;
+  height: auto;
+  filter: blur(2px);
+}
+
+.container2 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+figcaption {
+  position: absolute;
+  top: 45%;
+  left: 42%;
+}
+
+@media screen and (max-width: 1024px) {
+  #smartImageProject {
+    height: 6rem;
+  }
+  .iconSkills {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-amazon {
+    margin-top: 21rem !important;
+  }
+}
+
+.card-smart {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-color: #c5bcc542;
+  box-shadow: 8px 11px 15px black;
+}
+
+.card-amazon {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-color: #c5bcc542;
+  box-shadow: 8px 11px 15px black;
+  transform: translate(0%, -30%);
+}
+
+.card-projects {
+  background-color: #25272b;
+  box-shadow: 8px 11px 15px black;
+  padding-top: 3rem;
+  border-radius: 25px;
+  margin-top: 3.5rem;
+}
+
+#projects {
+  margin-bottom: -9rem;
+}

@@ -45,3 +45,8 @@ textarea {
 #imageContact {
   max-width: 30%;
 }
+
+#smartImageProject {
+  height: 7.5rem;
+  max-width: 7.5rem;
+}
